@@ -186,6 +186,7 @@ import { refreshModelCatalogs } from "./model-catalog-refresh.ts";
 import { getModelSearchText } from "./model-search.ts";
 import { type BlockedStatus, ProgramStatusReporter } from "./program-status-reporter.ts";
 import { shareSession } from "./session-share.ts";
+import { formatTodos, getTodosFromBranch } from "./todos-command.ts";
 import {
 	getAvailableThemes,
 	getAvailableThemesWithPaths,
